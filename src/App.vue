@@ -1,4 +1,5 @@
 <script setup>
+import HeroSection from './components/HeroSection.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
 </script>
 
@@ -7,7 +8,9 @@ import NavbarComponent from './components/NavbarComponent.vue'
     <NavbarComponent />
   </header>
 
-  <main>hello</main>
+  <main>
+    <HeroSection />
+  </main>
 </template>
 
 <style scoped></style>
