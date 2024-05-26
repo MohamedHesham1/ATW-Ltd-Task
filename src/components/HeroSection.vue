@@ -27,16 +27,16 @@
       </div>
     </div>
     <footer
-      class="flex gap-[8.125rem] items-center justify-center pt-[.9375rem] pb-5 text-white bg-[#816797] bg-opacity-70"
+      class="flex flex-wrap gap-10 md:gap-8 lg:gap-10 xl:gap-[8.125rem] items-center justify-center pt-[.9375rem] pb-5 text-white bg-[#816797] bg-opacity-70"
     >
-      <p class="text-[2rem]">Powering leading brands</p>
-      <div class="flex items-center gap-2">
-        <img src="/Coindesk.svg" alt="VMetA Logo" />
-        <p class="text-[1.5625rem]">Coindesk</p>
+      <h2 class="text-center text-[1.5rem] md:text-left lg:text-[2rem]">Powering leading brands</h2>
+      <div class="flex flex-col md:flex-row items-center gap-2 text-[1.125rem] lg:text-[1.5625rem]">
+        <img src="/Coindesk.svg" alt="Coindesk Logo" class="w-32 md:w-auto" />
+        <p>Coindesk</p>
       </div>
-      <div class="flex items-center gap-2">
-        <img src="/frame 8.svg" alt="VMetA Logo" />
-        <p class="text-[1.5625rem]">H E F T Y V E R S E</p>
+      <div class="flex flex-col md:flex-row items-center gap-2">
+        <img src="/frame 8.svg" alt="HEFTYVERSE Logo" class="w-32 md:w-auto" />
+        <p>H E F T Y V E R S E</p>
       </div>
     </footer>
   </section>

@@ -13,7 +13,7 @@
       <div class="relative">
         <button
           @click="scrollLeft"
-          class="absolute flex justify-center items-center w-[69px] h-[69px] left-0 top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
+          class="absolute flex justify-center items-center w-[69px] h-[69px] left-[-28px] top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
         >
           <i class="fa-solid fa-angle-left"></i>
         </button>
@@ -35,7 +35,7 @@
         </div>
         <button
           @click="scrollRight"
-          class="w-[69px] h-[69px] absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
+          class="w-[69px] h-[69px] absolute right-[-38px] top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
         >
           <i class="fa-solid fa-angle-right"></i>
         </button>
@@ -51,6 +51,7 @@ const props = defineProps({
   collections: Array,
   height: String,
   sectionTitle: String,
+  isLeftVisible: Boolean,
   bgColor: {
     type: String,
     default: 'bg-black'

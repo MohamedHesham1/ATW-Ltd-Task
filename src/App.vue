@@ -27,6 +27,7 @@
     <TrendingSection />
   </main>
 
+  <FooterComponent />
 </template>
 
 <script setup>
@@ -35,5 +36,7 @@ import HeroSection from './components/HeroSection.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
 import CollectionSection from './components/CollectionsSection.vue'
 import TrendingSection from './components/TrendingSection.vue'
+import FooterComponent from './components/FooterComponent.vue'
+</script>
 
 <style scoped></style>
