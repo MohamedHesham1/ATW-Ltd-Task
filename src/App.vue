@@ -22,6 +22,9 @@
       height="h-[539px]"
     />
 
+    <CollectionSection />
+
+    <TrendingSection />
   </main>
 
 </template>
@@ -30,5 +33,7 @@
 import DisplaySection from './components/DisplaySection.vue'
 import HeroSection from './components/HeroSection.vue'
 import NavbarComponent from './components/NavbarComponent.vue'
+import CollectionSection from './components/CollectionsSection.vue'
+import TrendingSection from './components/TrendingSection.vue'
 
 <style scoped></style>
