@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black text-white px-2 py-8 md:py-12">
+  <section class="bg-black text-white px-4 py-8 md:py-12">
     <div class="container mx-auto">
       <div class="flex flex-wrap justify-between items-center mb-8">
         <h2 class="text-3xl md:text-4xl font-bold mb-4 md:mb-0">{{ sectionTitle }}</h2>
@@ -13,7 +13,7 @@
       <div class="relative">
         <button
           @click="scrollLeft"
-          class="absolute flex justify-center items-center w-[69px] h-[69px] left-[-28px] top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
+          class="absolute hidden md:block md:w-[69px] md:h-[69px] left-[-28px] top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
         >
           <i class="fa-solid fa-angle-left"></i>
         </button>
@@ -35,7 +35,7 @@
         </div>
         <button
           @click="scrollRight"
-          class="w-[69px] h-[69px] absolute right-[-38px] top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
+          class="md:w-[69px] md:h-[69px] hidden md:block absolute right-[-38px] top-1/2 transform -translate-y-1/2 bg-[#52057B] text-white rounded-full z-10 text-3xl"
         >
           <i class="fa-solid fa-angle-right"></i>
         </button>

@@ -12,11 +12,11 @@
         The fastest and easiest way to fully unlock the potential of your digital assets. Create and
         run an exclusive marketplace for your NFT business today!
       </p>
-      <div class="flex rounded-full mx-auto gap-2">
+      <div class="flex rounded-full mx-auto gap-2 px-2">
         <input
           type="email"
           placeholder="Enter your email...."
-          class="w-full outline-none bg-black text-[#D6D5A8] text-sm px-5 rounded-2xl h-10 placeholder:text-[#D6D5A8] placeholder:opacity-50"
+          class="w-2/3 md:w-full outline-none bg-black text-[#D6D5A8] text-sm px-5 rounded-2xl h-10 placeholder:text-[#D6D5A8] placeholder:opacity-50"
         />
         <button
           type="button"
