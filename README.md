@@ -1,6 +1,8 @@
 # ATW Ltd. Frontend Task
 
-This project is a Vue.js application developed as part of the application process for a full-time position in the Front-end department at ATW Ltd. It consists of two main components: a page designed according to the provided Figma design and another page utilizing data from the JSONPlaceholder API.
+This project is a Vue.js application developed as part of the application process for a full-time position in the Front-end department at ATW Ltd. It consists of two main components: a page designed according to the provided Figma design and another page utilizing data from the JSONPlaceholder API. 
+
+**Live** : https://atw-ltd-task.vercel.app/
 
 ## Technologies Used
 
